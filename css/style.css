@@ -1,0 +1,84 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size:62.5%;
+}
+/* fine reset */
+
+/* inizio header */
+header{
+height: 35rem;
+width:96%;
+margin: auto;
+margin-top: 1.5rem;
+margin-bottom: 3rem;
+}
+
+header .website-title{
+background-color: red;
+height: 84%;
+border: 1.2rem solid black;
+}
+
+header nav{
+background-color: grey;
+height: 16%;
+}
+/* fine header */
+
+/* inizio main */
+  main{
+    width: 96%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  main::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* inizio left-col */
+  .left-col{
+    background-color: pink;
+    height: 45rem;
+    width: 24%;
+    float: left;
+  }
+  /* fine left-col */
+
+  /* inizio main-col */
+  .main-col{
+  background-color: blue;
+  height: 50rem;
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+  }
+  /* fine main-col */
+
+  /* inizio right-col */
+  .right-col{
+    width: 24%;
+    float: left;
+    margin-left: 2%;
+  }
+  .right-col .element1, .element2{
+    background-color: green;
+    height: 20rem;
+    margin-bottom: 3rem;
+  }
+  /* fine right-col */
+
+/* fine main */
+
+/* inizio footer */
+footer {
+  background-color: purple;
+  height: 12rem;
+  width: 96%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+/* fine footer */
